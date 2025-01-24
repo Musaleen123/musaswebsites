@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MUSAS WEBSITES</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">MUSAS WEBSITES</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container">
+            <h1>Build Tailor-made websites that suit your brand and business needs.</h1>
+            <p>Welcome to Musas Websites. I specialise in creating responsive and user-friendly websites for businesses and individuals.</p>
+            <button onclick="alertMessage()">Get Started</button>
+            <script src="script.js"></script>
+        </div>
+        <img src="image1.webp" alt="Hero Image" class="hero-img">
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>At Musas Websites, we specialise in creating visually stunning, user-friendly, and fully responsive websites tailored to meet your business needs. Whether you're just starting or want to upgrade your current site, we're here to help you make an impact online.</p>
+            <img src="image2.webp" alt="About Us" class="about-img">
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service-cards">
+                <div class="card">
+                    <img src="image3.avif" alt="Responsive Design">
+                    <h4>Responsive Design</h4>
+                    <p>Your website will look amazing on any device, whether it is a phone, tablet, or desktop.</p>
+                </div>
+                <div class="card">
+                    <img src="image4.webp" alt="SEO Optimisation">
+                    <h4>SEO Optimisation</h4>
+                    <p>Improve your online visibility and attract more customers with SEO-focused designs.</p>
+                </div>
+                <div class="card">
+                    <img src="image5.webp" alt="Customised Solutions">
+                    <h4>Customised Solutions</h4>
+                    <p>Tailored website designs to meet your unique business requirements and goals.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Have a project in mind? Let's bring your vision to life. Fill out the form below, and we'll get back to you as soon as possible.</p>
+            <form action="https://formspree.io/f/xyzkzznb" method="POST">
+                <label>
+                    Your Email:
+                    <input type="email" name="email" required>
+                </label>
+                <label>
+                    Contact Number:
+                    <input type="number" name="number">
+                </label>
+                <label>
+                    Your Message:
+                    <textarea name="message" required></textarea>
+                </label>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Musas Websites. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
+
